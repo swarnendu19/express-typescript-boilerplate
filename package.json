@@ -1,7 +1,7 @@
 {
   "name": "focushub-backend",
   "version": "1.0.0",
-  "description": "Welcome to the backend for **TimeTrackr**, a gamified time-tracking application inspired by indiaction.club. This monolith powers features like time tracking, activity overviews, badge awards, timelines, project management (public/private), leaderboards, and user profiles. Built for rapid development, it integrates seamlessly with a **React + Vite** frontend, using **Express** for simplicity and familiarity.",
+  "description": "A modern, production-ready RESTful API boilerplate built with Node.js, TypeScript, Express, and Prisma. Features include authentication, authorization, request validation, API documentation, error handling, logging, and more. Optimized for Bun runtime with Docker support.",
   "main": "index.js",
   "type": "module",
   "repository": "https://github.com/swarnendu19/focushub-backend.git",
@@ -24,7 +24,26 @@
     "prepare": "husky install",
     "build": "rimraf build && tsc -p tsconfig.json"
   },
-  "keywords": [],
+  "keywords": [
+    "node",
+    "node.js",
+    "typescript",
+    "boilerplate",
+    "express",
+    "rest",
+    "api",
+    "prisma",
+    "postgresql",
+    "es6",
+    "es7",
+    "es8",
+    "es9",
+    "docker",
+    "passport",
+    "joi",
+    "eslint",
+    "prettier"
+  ],
   "author": "Swarnendu Maity",
   "license": "ISC",
   "dependencies": {
